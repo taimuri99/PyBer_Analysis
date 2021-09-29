@@ -22,7 +22,7 @@ In the summary created above, one can see the total drivers, rides and fares as 
 4) Average fare per ride is highest for rural city type while being lowest for urban city type.
 5) Average fare per driver is highest for rural city type while being lowest for urban city type.
 
-One can see that due to the number of drivers and rides in rural areas being much less in comparison to other city types, the average fare per driver and ride is much higher than suburban and urban cities. One of the reasons for this is that urban cities are highly populated and have more available resources as cars or drivers as opposed to rural areas which have low populations and infrastructure. Although the total fares are also less for rural types, the stark difference in amount of rides booked or drivers available compared to urban and suburban cities, cause the averages to decrease. Suburban city types are in the middle of the two extremes as expected as they're not as densely populated as urban cities therefore less amounts of drivers and rides, yet are more populated than rural areas which are scarcely populated.  
+One can see that due to the number of drivers and rides in rural areas being much less in comparison to other city types, the average fare per driver and ride is much higher than suburban and urban cities. One of the reasons for this is that urban cities are highly populated and have more available resources as cars or drivers as opposed to rural areas which have low populations and underdeveloped infrastructure. Although the total fares are also less for rural types, the stark difference in amount of rides booked or drivers available compared to urban and suburban cities, cause the averages to decrease. Suburban city types are in the middle of the two extremes as expected as they're not as densely populated as urban cities therefore less amounts of drivers and rides, yet have more drivers and resources than rural areas which are scarcely populated.  
 
 #### Ride Sharing Data Visualised
 Here is visual aid to help better understand the distribution of average fare vs total number of rides per city:
@@ -32,8 +32,8 @@ Here is visual aid to help better understand the distribution of average fare vs
 Noticeable key points:
 
 1) As total number of rides per city increases, the bubble chart becomes more densely populated by urban city type while the rural city type is more prominent in lower rides per city due to density of populations and infrastructure.
-2) As the average fare increases, the plot is more densely populated with rural areas due to the reasons listed above: Less population therefore less infratructure, cars, drivers and rides therefore causing the average fare to increase. 
-3) Simlarly average cost per ride decreases in suburban to urban areas due to access to larger number of drivers and therefore more rides.
+2) As the average fare increases, the plot is more densely populated with rural areas due to the reasons listed above: Less population therefore less infratructure, cars, drivers and rides therefore causing the average fare per ride and average fare per driver to increase. 
+3) Simlarly average fare per ride decreases in suburban to urban areas due to access to larger number of drivers and therefore more rides.
 4) The bubble size depends on the driver count per city which matches our analysis. On average, largest counts or bubbles for urban areas and smallest counts for rural areas. 
 
 #### Box Plots
@@ -45,12 +45,12 @@ The following three box plots further explores our analysis of city types:
 
 These plots match our analysis showing:
 
-1) Higher range and mean number of drivers and rides for urban areas.
-2) Lowest range and mean number of drivers and rides for rural areas.
-3) Suburban driver count and ride count between the two extremes.
-4) Highest range and mean fare for rural areas.
-5) Lowest range and mean fare for urban areas.
-6) Suburban mean fare between the two extremes.
+1) Total count and mean number of drivers and rides for urban areas is the highest.
+2) Total count and mean number of drivers and rides for rural areas is the lowest.
+3) Suburban driver count and ride count lies between the two extremes.
+4) Highest mean fare per ride is in rural areas.
+5) Lowest mean fare per ride is in urban areas.
+6) Suburban mean fare lies between the two extremes.
 
 One thing to notice from the box plots and the bubble chart, values for average fare, driver count and ride count tend to overlap between cities of the three types but on average they follow a trend:
 
@@ -58,7 +58,7 @@ One thing to notice from the box plots and the bubble chart, values for average 
 2) For mean fare: Rural Mean Fare > Suburban Mean Fare > Urban Mean Fare
 
 #### Pie Charts
-Lastly two pie charts visualise the shares of rides and drivers for all three city types:
+Lastly two pie charts visually represent the shares of rides and drivers for all three city types:
 
 <img width="407" alt="%RidesCityType" src="https://user-images.githubusercontent.com/87828174/135175744-49e1dfcb-3429-4ef3-b813-fa0d8fedd078.png">
 <img width="442" alt="%DriversCityType" src="https://user-images.githubusercontent.com/87828174/135175746-482b4350-0e1a-43a4-9319-84bf13181c90.png">
@@ -69,10 +69,10 @@ Lastly two pie charts visualise the shares of rides and drivers for all three ci
 
 Above is a multiple-line chart of total fares for each city type. Some key points taken from this visualised data is:
 
-1) On average the total weekly fares collected were highest for urban cities as compared to suburban and rural types. Factors for this are high urban population density, access to more cars and drivers and therfore higher number of rides booked.
-2) On average the total weekly fares collected were lowest for rural cities as compared to suburban and urban types. Factors for this are low rural population density, access to less cars and drivers and therfore lower number of rides booked.
-3) As before suburban total weekly fare was in between the two extremes.
-4) There are weekly highs and dips for the three city types:
+1) On average the total weekly fares collected were highest for urban cities as compared to suburban and rural types. Factors for this are high urban population density, access to higher number of cars and drivers and therfore higher number of rides booked.
+2) On average the total weekly fares collected were lowest for rural cities as compared to suburban and urban types. Factors for this are low rural population density, access to lower number of cars and drivers and therfore lower number of rides booked.
+3) As mentioned earlier total suburban weekly fare was in between the two extremes.
+4) There are weekly peaks and dips for the three city types:
     * Urban City Types:
       1. Minimum Weekly Fare was in January
       2. Maximum Weekly Fare was in February and March
@@ -84,7 +84,15 @@ Above is a multiple-line chart of total fares for each city type. Some key point
       2. Maximum Weekly Fare was in April
 
 ## Summary
-To decrease the disparity between the three cities, the following solutions could be implemented:
+To address the disparity between the three cities, the following solutions could be implemented:
 
-By increasing the number of drivers in suburban and urban areas, the average cost per driver would decrease. Possibly the number of rides would also increase due to availability of more drivers which would then decrease the average cost per ride as well. Due to lack of infrastructure in more underdeveloped areas as compared to urban settlements, one understands the lack of drivers and rides. A possible solution to this is hiring more drivers local to those areas and surrounding areas which could help in increasing the number of drivers. Due to less population density in suburban and rural areas, number of rides is low but a way to invite more people to be inclined to use PyBer is by decreasing the fare amount in those areas. As the mean cost per ride is so high, some people would not want to use the app. By decreasing the fare amount, more people would be interested in using PyBer for transport compared to other alternatives. In a marketing point of view, we could start targetting advertisements in city types with lesser ride count to increase awareness to PyBer. With more knowledge of the application this could result in more people using the app and therefore more rides booked. Agreements and deals could be made with local businesses in rural and suburban city types to help with the trasnport of their employees from work to home and vice verca. This could also help in increasing the number of rides taken in these areas. The aim of all these solutions is to decrease the mean cost per ride and mean cost per driver by either increasing the number of rides or the number of drivers in those city types with high average costs. Increasing the rides would also increase the weekly fares collected from those cities thus reducing the disparity in the plots between the three city types. 
+By increasing the number of drivers in suburban and rural areas, the average fare per driver would decrease. Possibly the number of rides would also increase due to availability of more drivers which would then decrease the average fare per ride as well. The lack of drivers and rides is directly related to lack of infrastrure and low population in underdeveloped areas as compared to urban settlements. A possible solution to this is hiring more drivers local to those areas and surrounding areas which could help in increasing the number of drivers. 
+
+Due to less population density in suburban and rural areas, number of rides is low but a way to invite more people to be inclined to use PyBer is by decreasing the fare amount in those areas. As the mean cost per ride is so high, some people would not want to use the app. By decreasing the fare amount, more people would be interested in using PyBer for transport compared to other alternatives. 
+
+In a marketing point of view, we could start targetting advertisements in city types with lesser ride count to increase awareness to PyBer. With more knowledge of the application this could result in more people using the app and therefore more rides booked. 
+
+Agreements and deals could be made with local businesses in rural and suburban city types to help with the transport of their employees from work to home and vice verca. This could also help in increasing the number of rides taken in these areas. 
+
+The aim of all these suggestions is to decrease the mean cost per ride and mean cost per driver by either increasing the number of rides or the number of drivers in those city types with high average costs. Increasing the rides would also increase the total weekly fares collected from those cities thus reducing the disparity in the plots between the three city types. 
 
