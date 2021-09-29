@@ -73,15 +73,19 @@ Above is a multiple-line chart of total fares for each city type. Some key point
 2) On average the total weekly fares collected were lowest for rural cities as compared to suburban and urban types. Factors for this are low rural population density, access to less cars and drivers and therfore lower number of rides booked.
 3) As before suburban total weekly fare was in between the two extremes.
 4) There are weekly highs and dips for the three city types:
-  a) For Urban City Types:
-    i) Minimum Weekly Fare was in January
-    ii) Maximum Weekly Fare was in February and March
-  b) For Suburban City Types:
-    i) Minimum Weekly Fare was in January
-    ii) Maximum Weekly Fare was in February
-  c) For Rural City Types:
-    i) Minimum Weekly Fare was in January and February
-    ii) Maximum Weekly Fare was in April
-
+    * Urban City Types:
+      1. Minimum Weekly Fare was in January
+      2. Maximum Weekly Fare was in February and March
+    * Suburban City Types:
+      1. Minimum Weekly Fare was in January
+      2. Maximum Weekly Fare was in February
+    * Rural City Types:
+      1. Minimum Weekly Fare was in January and February
+      2. Maximum Weekly Fare was in April
 
 ## Summary
+To decrease the disparity between the three cities, the following solutions could be implemented:
+
+By increasing the number of drivers in suburban and urban areas, the average cost per driver would decrease. Possibly the number of rides would also increase due to availability of more drivers which would then decrease the average cost per ride as well. Due to lack of infrastructure in more underdeveloped areas as compared to urban settlements, one understands the lack of drivers and rides. A possible solution to this is hiring more drivers local to those areas and surrounding areas which could help in increasing the number of drivers. Due to less population density in suburban and rural areas, number of rides is low but a way to invite more people to be inclined to use PyBer is by decreasing the fare amount in those areas. As the mean cost per ride is so high, some people would not want to use the app. By decreasing the fare amount, more people would be interested in using PyBer for transport compared to other alternatives. In a marketing point of view, we could start targetting advertisements in city types with lesser ride count to increase awareness to PyBer. With more knowledge of the application this could result in more people using the app and therefore more rides booked. Agreements and deals could be made with local businesses in rural and suburban city types to help with the trasnport of their employees from work to home and vice verca. 
+
+agreements with local businesses for employee transport
