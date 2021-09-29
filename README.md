@@ -69,7 +69,19 @@ Lastly two pie charts visualise the shares of rides and drivers for all three ci
 
 Above is a multiple-line chart of total fares for each city type. Some key points taken from this visualised data is:
 
-1) 
+1) On average the total weekly fares collected were highest for urban cities as compared to suburban and rural types. Factors for this are high urban population density, access to more cars and drivers and therfore higher number of rides booked.
+2) On average the total weekly fares collected were lowest for rural cities as compared to suburban and urban types. Factors for this are low rural population density, access to less cars and drivers and therfore lower number of rides booked.
+3) As before suburban total weekly fare was in between the two extremes.
+4) There are weekly highs and dips for the three city types:
+  a) For Urban City Types:
+    i) Minimum Weekly Fare was in January
+    ii) Maximum Weekly Fare was in February and March
+  b) For Suburban City Types:
+    i) Minimum Weekly Fare was in January
+    ii) Maximum Weekly Fare was in February
+  c) For Rural City Types:
+    i) Minimum Weekly Fare was in January and February
+    ii) Maximum Weekly Fare was in April
 
 
 ## Summary
