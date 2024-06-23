@@ -1,5 +1,5 @@
 # PyBer Analysis
-Module 4 Jupyter Notebook &amp; MatPlotLib: PyBer Ride-Sharing Analysis
+Module 5: Jupyter Notebook &amp; MatPlotLib: PyBer Ride-Sharing Analysis
 ## Overview of the analysis
 PyBer, a ride sharing app has asked us to analyze and visualise ride and driver data for different cities. We did this by analyzing drivers and rides for different city types:
 
